@@ -52,7 +52,7 @@ function mostrarPergunta() {
 
   textoPergunta = document.createTextNode(objPergunta.pergunta);
 
-  divPergunta = documentg.querySelector(".pergunta");
+  divPergunta = document.querySelector(".pergunta");
 
   divPergunta.appendChild(textoPergunta);
 
